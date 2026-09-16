@@ -1,6 +1,6 @@
 import React from 'react';
 import { Activity, Key, RefreshCw } from 'lucide-react';
-import { getApiKey } from '../services/geminiService';
+import { getApiKey } from '../../backend/geminiService';
 
 export default function Header({ onReset, onOpenApiKeyModal, currentStep }) {
   const hasKey = Boolean(getApiKey());

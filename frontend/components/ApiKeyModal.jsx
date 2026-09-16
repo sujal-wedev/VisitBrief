@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Key, X, Check, ExternalLink, ShieldCheck } from 'lucide-react';
-import { getApiKey, setCustomApiKey } from '../services/geminiService';
+import { getApiKey, setCustomApiKey } from '../../backend/geminiService';
 
 export default function ApiKeyModal({ isOpen, onClose }) {
   const [keyInput, setKeyInput] = useState(getApiKey());

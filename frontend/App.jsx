@@ -7,8 +7,8 @@ import BriefCard from './components/BriefCard';
 import DisclaimerFooter from './components/DisclaimerFooter';
 import ApiKeyModal from './components/ApiKeyModal';
 
-import { checkSafetyNet } from './services/safetyNet';
-import { analyzeSymptoms, generateVisitBrief, getApiKey } from './services/geminiService';
+import { checkSafetyNet } from '../backend/safetyNet';
+import { analyzeSymptoms, generateVisitBrief, getApiKey } from '../backend/geminiService';
 import { AlertCircle } from 'lucide-react';
 
 export default function App() {
